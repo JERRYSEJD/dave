@@ -106,7 +106,7 @@ export default function Friends() {
 
     const inviteLink = botUsername
       ? `https://t.me/${process.env.NEXT_PUBLIC_BOT_USERNAME}/${process.env.NEXT_PUBLIC_APP_URL_SHORT_NAME}?startapp=kentId${userTelegramId || ""}`
-      : "https://t.me/clicker_game_news";
+      : "https://t.me/";
 
     const shareText = `🎮 Join me in TonIce: Tap, Earn, and Win! 🏆\n🚀 Let's play and earn together!`;
 
